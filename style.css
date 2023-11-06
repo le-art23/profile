@@ -1,0 +1,84 @@
+body{
+  background-color:#f3f1e2;
+  font-family: 'DM Serif Text', serif;
+  color:#606c38;
+  font-size: 15px ;
+  line-height: 1.2;
+  text-align: center;
+}
+h1{
+  color:#283618;
+  font-family: 'DM Serif Display', serif;
+  font-size: 25px;
+}
+h2{
+  color:#283618;
+  font-family: 'DM Serif Display', serif;
+  font-size: 22px;
+}
+
+h3{
+  color:#bc6c25;
+  font-family: 'DM Serif Display', serif;
+  font-size: 18px;
+}
+
+h4{
+  color:#283618;
+  font-family: 'DM Serif Display', serif;
+  font-size: 16px;
+}
+a{
+  color: #dda15e;
+  text-decoration:none ;
+}
+a:hover{
+  text-decoration: underline;
+}
+.card{
+  background-color:#fefae0;
+  border:1px solid #606c38;
+  border-radius: 5%;
+  padding: 30px;
+  margin-top: 20px ;
+  margin-bottom: 20px;
+}
+
+.card_social{
+  background-color:#fefae0;
+  border:1px solid #606c38;
+  border-radius: 10px;
+  margin-top: 20px ;
+  margin-bottom: 20px;
+}
+
+.card_social i {
+  font-size: 30px;
+  letter-spacing: 0px;
+}
+
+.container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.list_inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list_inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#photo{
+  border-radius: 50%;
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
